@@ -1,0 +1,191 @@
+<html>
+      <head>
+       <title> Business web page </title>
+          
+           <!-----CSS---->
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+             
+            <script src="js/jquery.js"></script>
+             <script src="js/bootstrap.min.js"></script>
+          </head>
+    
+           <body>
+            
+            <!--- header--->
+              <header>
+            <!---Main container-->
+                  <div class= "main-container">
+                  <!-- single row--->
+                      <div class="single-row">
+                         <!---col--left-->
+                          <div class="single-col-12">
+                            <img image="img-responsive img-rounded"src="images/home.jpg" alt="business page">
+                           <!---col--right--> 
+                              <div class="single-col-12">
+                               <h1> ADITI </h1>
+                               <p> UNLEASHING THE GREATEST POTENTIAL</p>
+                          <a href="#" class="btn btn-primary btn-lg"> Take a Tour </a>
+                          </div> 
+                          </div> 
+                            </div>
+                  </div>  
+            </header>  
+            <div class="clear- fix"></div>
+            <!---Separator---->
+             <section>
+                 <!--main Container-->
+                <div class= "main-container">
+                 
+                    <!---single row-->
+                    <div class="single-row">
+                    <!---col full-->
+                       <hr>     
+                    </div>
+                
+                </div>
+            
+            </section>
+            
+            <!---Features-->
+            <section>
+            <!---Main Container-->
+                <div class= "main-container">
+                     <!---single row--->
+                    <div class="single-row">
+                      <!--col---1--->
+                        <div class="col-6">
+                        <h2> TRANSFORMING IDEAS TO LIFE</h2>
+                            <p> We are a premier technology solutions firm helping organizations accelerate business growth. Partnering with Fortune 500 companies, we have successfully delivered talent on demand and project solutions for over two decades now.</p>
+                            <a href="#" class="btn-info"> more Info</a>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            
+            </section>
+         <div class="clear- fix"></div>   
+            <!-- Footer section--->
+        <footer>
+            <!--main container--->
+            <div class="main-container">
+            <!---sing;e row--->
+                <div class="single-row">
+                <!---col--Full-->
+                    <div class="col- footer">
+                      <p> Copyrights &copy; Aditi 2020</p>
+                    
+                    </div>
+                
+                
+                </div>
+            
+            
+            </div>
+       
+            </footer>
+    </body>
+
+
+</html>
+
+/* General CSS */
+body {
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 25px;
+}
+h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-left: 10px
+}
+p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.single-row {
+    width: 100%;
+}
+/* Header */
+
+.btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top:1px solid #eee;
+    
+}
+
+/*features*/
+.col-1{
+    width: 30%;
+    float:left;
+    padding-left: 15px;
+    padding-right:15px;
+    
+}
+
+.btn-info {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    cursor: pointer;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 10px;
+}
+.btn-info:hover{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.img-rounded{
+    border-radius: 6px;
+}
+                                /*footer*/
+
+.col-footer{
+    padding: 30px 0;
+}
+
