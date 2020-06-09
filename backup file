@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+      <head>
+       <title> Aditi-simple clean and responsive website </title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+           <!---google fonts--->
+            <link                                                                         href='https://fonts.googleapis.com/css>family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+            <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+          
+          <!-------Icon---->
+          <link rel="icon" type="image/png" href="images/logo.png">
+          
+          <!-----CSS---->
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+          <!---font awesome--->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+          
+            <link rel="stylesheet"  href="font-awesome.min.css">
+          
+          </head>
+    
+           <body>
+             <!----Header-->
+               <header class="header">
+               <div class="header-overlay">
+                   <div class="container">
+                       <div class ="row">
+                           <div class="col-md-12">
+                               
+                               <!---Logo-->
+                               <div class="logo text-center">
+                                   <img src="images/logo.png" alt="logo">
+                              
+                                 </div>
+                        
+                             </div>
+                   
+                         </div>
+                       <div class="row">
+                         <div class="col-md-8">
+                           <div class="header-text">
+                            
+                               <!---Title and description-->
+                               <h1> UNLEASHING THE GREATEST POTENTIAL</h1>
+                               <p>Delievering talent hired with your business and culture</p>
+                     
+                             </div>
+                             
+                             <div class= "header-btns"></div>
+                             
+                             <!---Header buttons-->
+                             <a class="btn btn-Looking For Talent" href="#"> LOOKING FOR TALENT?</a>
+                             <a class="btn btn-Have a project" href="#">HAVE A PROJECT?</a>
+                             <a class="btn btn-Work with us" href="#">WORK WITH US?
+                                <i class="fa fa-angle down"> </i>
+                             </a>
+                     
+                           </div>
+                       
+                       </div>
+                        </div>
+                   
+                   </div>
+          
+               </header>
+               
+       <!-------------------- What we do---------->
+               
+ <section>
+     <div class="container">
+     <div class="row">
+         <div class="col-md-10 col-offset-1">
+         
+         
+         <!-----------What we do and description------------> 
+             
+             <div class="section'-title">
+                <h2> What we do</h2>
+                 <p>We are a dynamic company thriving on youthful energy. Our team of experts understand what it takes to balance professional and personal goals to succeed in life.We are a collaborative environment that is all about its creators – YOU! We take pride in being recognized as “The Great place to Work” where learning, working and fun are in the perfect blend.</p>
+        
+             </div>
+            </div>
+            </div>
+        </div>
+     <div class="Who-we-are-wrapper">
+    
+         <div class="container">
+       
+         <div class="row">
+         
+             <div class="col-md-4">
+             
+    <!----------About us------->
+             <div class="About us"></div>
+             <img src="images/stories1.png" alt="our stories">
+          </div>
+        </div>
+              
+             
+             <div class="container"></div>
+             <div class="row"></div>
+             <div class="col-md-12"></div>
+         
+            <!----------Who we are------->
+         <div class="Who-we-are-title"></div>
+         <h2>Who we are</h2>
+         <p>Talent is at the heart of everything we do and deliver. We are a premier technology solutions firm
+             known for leveraging people talent to turn your ideas into plans, and plans into actions.
+
+             From a world-class product company, to successfully spinning off a services business,
+             and now to talent and technology consulting, Aditi has come a full circle doing what it does best:
+             Accelerating business innovation through right talent!
+
+             Our services provide talent on demand, managed teams, project based engagement and full outsourcing.
+             We give you the flexibility to choose the partnership model that works best for your organization
+             and eventually drives greater value.</p>
+         
+       
+         </div>
+  
+     </div>         
+               <!--------------Who we are description---------->
+                <div class="who-we-are-dec">
+     
+                <!--------------Who we are item1---------->
+                <div class="who we are item1">
+                    
+                 <!--------------Who we are item icon---------->    
+                    
+                <div><i class= "fa fa-bolt"></i></div>
+                    
+                   <!--------------Who we are item title and description---------->  
+                    
+                    <h3> VISION</h3>
+                    <p>We aspire to transform lives by setting the career stage for people to express their skills and talent in technology that can impact communities for good.</p>
+  
+                    </div>
+    
+     </div>
+               
+               
+               
+               
+    </section>              
+               
+
+          
+            <!--bootstrap Javascript-->
+          <script src="js/jquery.js"></script>
+          <script src="js/bootstrap.min.js"></script> 
+    </body>
+
+</html>
